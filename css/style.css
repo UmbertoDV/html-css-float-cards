@@ -6,6 +6,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
 /* General */
 img{
     max-width: 100%;
@@ -21,11 +28,6 @@ a{
     text-decoration: none;
     color: #58b2e2;
 }
-.clearfix::after{
-    clear: both;
-    content: "";
-    display: table;
-}
 h1{
     color: #e3306f;
     font-size: 50px;
@@ -33,6 +35,7 @@ h1{
 h4{
     font-weight: 100;
 }
+
 /* Selector */
 .container{
     max-width: 1200px;
