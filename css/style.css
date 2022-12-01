@@ -1,26 +1,33 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
 /* CSS Reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* General */
 img{
     max-width: 100%;
 }
 body{
+    font-family: 'Fredoka', sans-serif;
 }
 header{
     text-align: center;
     margin-bottom: 20px;
 }
-
+a{
+    text-decoration: none;
+    color: #58b2e2;
+}
 .clearfix::after{
     clear: both;
     content: "";
     display: table;
 }
 
+/* Selector */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -34,14 +41,13 @@ header{
 }
 .desc {
     margin-left: 90px;
-    vertical-align: middle;
+    margin-top: 10px;
 }
 .column{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 40px);
     float: left;
     background-color: #0f0e16;
-    padding: 0 30px;
-    border-radius: 10px;
+    margin: 0 20px;
 }
 .row{
     color: white;
