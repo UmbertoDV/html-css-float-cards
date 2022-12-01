@@ -30,6 +30,9 @@ h1{
     color: #e3306f;
     font-size: 50px;
 }
+h4{
+    font-weight: 100;
+}
 /* Selector */
 .container{
     max-width: 1200px;
