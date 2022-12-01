@@ -26,7 +26,10 @@ a{
     content: "";
     display: table;
 }
-
+h1{
+    color: #e3306f;
+    font-size: 50px;
+}
 /* Selector */
 .container{
     max-width: 1200px;
@@ -38,17 +41,26 @@ a{
 .profile-icon img {
     display: block;
     width: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .desc {
     margin-left: 90px;
     margin-top: 10px;
 }
 .column{
-    width: calc((100% / 3) - 40px);
+    width: calc((100% / 3) - 60px);
     float: left;
     background-color: #0f0e16;
-    margin: 0 20px;
+    margin: 20px 30px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .row{
+    margin-top: 50px;
     color: white;
+}
+.container p,
+.container h1{
+    margin-top: 30px;
 }
