@@ -4,3 +4,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img{
+    max-width: 100%;
+}
+body{
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.profile-icon {
+    float: left
+}
+.profile-icon img {
+    display: block;
+    width: 80px;
+}
+.desc {
+    margin-left: 90px;
+    vertical-align: middle;
+}
+.column{
+    width: calc(100% / 3);
+    float: left;
+    background-color: #0f0e16;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+.row{
+    color: white;
+}
